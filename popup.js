@@ -156,6 +156,8 @@ function clearAllData() {
     const savedEntriesContainer = document.getElementById("savedEntries");
     savedEntriesContainer.innerHTML = "";
     resetTimer();
+    stopTimer();
+
   });
 }
 
@@ -165,6 +167,7 @@ function saveData(text, time) {
     entries.push({ text, time });
     chrome.storage.local.set({ "entries": entries });
     displaySavedEntries(entries);
+    stopTimer();
   });
 }
 
