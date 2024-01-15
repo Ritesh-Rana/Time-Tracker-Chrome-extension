@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Timer Extension",
+    "version": "1.0",
+    "description": "Simple timer extension with text input",
+    "permissions": ["storage"],
+    "action": {
+      "default_icon": "images/icon16.png",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

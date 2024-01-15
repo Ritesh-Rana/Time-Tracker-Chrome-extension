@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.popup-container {
+  width: 450px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.timer-controls {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#timerDisplay {
+  font-size: 24px;
+  margin-top: 15px;
+  color: #333;
+}
+
+#textInput {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#saveButton, #clearButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#saveButton:hover, #clearButton:hover {
+  background-color: #45a049;
+}
+
+.saved-entries {
+  margin-top: 20px;
+}
+
+.saved-entry {
+  margin-bottom: 8px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+.saved-entry strong {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.saved-entry span {
+  color: #555;
+}

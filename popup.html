@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <title>Timer Extension</title>
+</head>
+<body>
+  <div class="popup-container" id="popupContainer">
+    <div class="header">
+      <h1>Timer Extension</h1>
+    </div>
+    <div class="content">
+      <div class="timer-controls">
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
+      </div>
+      <input type="text" id="textInput" placeholder="Enter text">
+      <button id="saveButton">Save</button>
+      <button id="clearButton">Clear All</button>
+      <div id="timerDisplay">00:00:00</div>
+      <div id="savedEntries" class="saved-entries"></div>
+    </div>
+  </div>
+  <script type="module" src="popup.js"></script>
+  <!-- <script src="popupEventHandlers.js"></script> -->
+</body>
+</html>
